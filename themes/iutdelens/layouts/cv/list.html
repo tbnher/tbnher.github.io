@@ -7,8 +7,8 @@
 
         <div class="columns">
             {{ range .Paginator.Pages }}
-                <div class="column">
-                    {{ partial "cvs.html" . }}
+                <div class="column" style="max-width:610px; margin:auto;">
+                    {{ partial "carte.html" . }}
                 </div>
             {{ end }}
         </div>
