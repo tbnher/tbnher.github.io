@@ -1,4 +1,4 @@
-baseURL = 'https://tbnher.github.io'
+baseURL = 'https://tbnher.github.io/'
 languageCode = 'fr-fr'
 title = 'Mon e-Portfolio'
 theme = 'iutdelens'
