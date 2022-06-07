@@ -1,0 +1,39 @@
+baseURL = 'https://tbnher.github.io'
+languageCode = 'fr-fr'
+title = 'Mon e-Portfolio'
+theme = 'iutdelens'
+paginate = 6
+
+[params]
+  author = "Nathan Fontaine"
+  authorImage = "/images/PHOTO_CV.jpg"
+
+[[menu.main]]
+  name = "Catégories"
+  url = "/categories"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog"
+
+[[menu.main]]
+  name = "CV"
+  url = "/cv"
+
+[[menu.main]]
+  name = "Projets"
+  url = "/projets"
+
+[[menu.social]]
+  name = "GitLab"
+  url = "https://github.com/tbnher"
+  pre = "<i class='fab fa-github'></i>"
+
+[[menu.social]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/nathan-fontaine-027906228/"
+  pre = "<i class='fab fa-linkedin'></i>"
+
+[[menu.footer]]
+name = "À propos"
+url = "/a-propos"

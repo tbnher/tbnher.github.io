@@ -1,0 +1,26 @@
+<div class="card">
+    <div class="card-image">
+        <figure class="maximage">
+            <img class="maximage" src="/images/{{ .Title }}/4by3.jpg" alt="Image">
+        </figure>
+    </div>
+    <div class="card-content">
+        <div class="media">
+            <div class="media-left">
+                <figure class="image is-48x48">
+                    <img src="/images/PHOTO_CV.jpg" alt="Image">
+                </figure>
+            </div>
+            <div class="media-content">
+                <p class="title is-4">{{ .Site.Params.Author }}</p>
+            </div>
+        </div>
+        
+        <div class="content">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ range $idx, $category := .Params.categories }}  {{- if ne $idx 0 }} {{ end }}<a href="{{ "categories/" | relURL }}{{ $category | urlize }}" class="tag is-link">  {{ $category }}</a>{{- end }}
+            <br>
+            <time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006"}}</time>    
+        </div>
+    </div>
+</div>
