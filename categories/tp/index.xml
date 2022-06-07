@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TP on Mon e-Portfolio</title>
+    <link>https://tbnher.github.io/categories/tp/</link>
+    <description>Recent content in TP on Mon e-Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 06 Jun 2022 20:55:13 +0200</lastBuildDate><atom:link href="https://tbnher.github.io/categories/tp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mon quatrième projet de l&#39;année 2022</title>
+      <link>https://tbnher.github.io/projets/quatrieme-projet-de-2022/</link>
+      <pubDate>Mon, 06 Jun 2022 20:55:13 +0200</pubDate>
+      
+      <guid>https://tbnher.github.io/projets/quatrieme-projet-de-2022/</guid>
+      <description>test</description>
+    </item>
+    
+    <item>
+      <title>Mon troisième projet de l&#39;année 2022</title>
+      <link>https://tbnher.github.io/projets/troisieme-projet-de-2022-copy/</link>
+      <pubDate>Mon, 06 Jun 2022 20:54:13 +0200</pubDate>
+      
+      <guid>https://tbnher.github.io/projets/troisieme-projet-de-2022-copy/</guid>
+      <description>test</description>
+    </item>
+    
+    <item>
+      <title>Mon deuxième projet de l&#39;année 2022</title>
+      <link>https://tbnher.github.io/projets/deuxieme-projet-de-2022/</link>
+      <pubDate>Sun, 05 Jun 2022 15:12:01 +0200</pubDate>
+      
+      <guid>https://tbnher.github.io/projets/deuxieme-projet-de-2022/</guid>
+      <description>test</description>
+    </item>
+    
+  </channel>
+</rss>
